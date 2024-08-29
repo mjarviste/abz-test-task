@@ -158,7 +158,7 @@ const App = () => {
 
   return (
     <>
-      <Header/>
+      <Header />
       <HeroSection mainHeadingText={mainHeadingText} subText={subText}/>
       <UsersSection usersHeadingText={usersHeadingText} users={users} usersToShow={usersToShow} showMore={showMore} showLess={showLess} showMoreUsers={showMoreUsers} showMoreText={showMoreText}/>
       <AddUserSection addUserHeadingText={addUserHeadingText} positions={positions} addUser={addUser} handleNameChange={handleNameChange} handleEmailChange={handleEmailChange} handleNumberChange={handleNumberChange} handlePositionChange={handlePositionChange} handleImgFileChange={handleImgFileChange} imgFileName={userImgFileName}/>
